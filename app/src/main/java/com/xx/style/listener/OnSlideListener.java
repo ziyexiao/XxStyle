@@ -1,0 +1,18 @@
+package com.xx.style.listener;
+
+import android.support.v7.widget.RecyclerView;
+
+/**
+ * SlideLayoutManager滑动的监听
+ */
+
+
+public interface OnSlideListener<T> {
+
+    void onSliding(RecyclerView.ViewHolder viewHolder, float ratio, int direction);
+
+    void onSlided(RecyclerView.ViewHolder viewHolder, T t, int direction);
+
+    void onClear();
+
+}

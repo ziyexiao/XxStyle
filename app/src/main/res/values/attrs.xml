@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--pullZoomView-->
+    <declare-styleable name="PullZoomView">
+        <attr name="pzv_sensitive" format="float" />
+        <attr name="pzv_isZoomEnable" format="boolean" />
+        <attr name="pzv_isParallax" format="boolean" />
+        <attr name="pzv_zoomTime" format="integer" />
+    </declare-styleable>
+
+    <!--rullerView-->
+    <declare-styleable name="RulerView">
+        <attr name="min_value" />
+        <attr name="max_value" />
+
+        <attr name="long_height_height_ratio" />
+        <attr name="short_height_height_ratio" />
+
+        <attr name="ruler_text_color" />
+        <attr name="ruler_text_size" />
+
+        <attr name="indicator_interval" />
+        <attr name="indicator_color" />
+        <attr name="indicator_width" />
+    </declare-styleable>
+
+    <declare-styleable name="RulerValuePicker">
+
+        <attr name="min_value" />
+        <attr name="max_value" />
+
+        <attr name="long_height_height_ratio" />
+        <attr name="short_height_height_ratio" />
+
+        <attr name="ruler_text_color" />
+        <attr name="ruler_text_size" />
+
+        <attr name="indicator_interval" />
+        <attr name="indicator_color" />
+        <attr name="indicator_width" />
+
+        <!-- Color of the top notch -->
+        <attr name="notch_color" />
+    </declare-styleable>
+
+    <!--RoundProgressBar-->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="outerFirstCircleColor" format="color"/>
+        <attr name="progressCircleColor" format="color"/>
+
+        <attr name="outerFirstCircleThickness" format="dimension"/>
+
+
+        <attr name="topTextColor" format="color"/>
+        <attr name="secondTextColor" format="color"/>
+        <attr name="thirdTextColor" format="color"/>
+
+        <attr name="maxProgress" format="integer"/>
+
+        <attr name="topText" format="string"/>
+        <attr name="thirdText" format="string"/>
+
+        <attr name="topTextSize" format="dimension"/>
+        <attr name="secondTextSize" format="dimension"/>
+        <attr name="thirdTextSize" format="dimension"/>
+        <attr name="progressStartColor" format="color"/>
+        <attr name="progressEndColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RadarView">
+        <attr name="maxValue" format="float"/>
+        <attr name="valueColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="radarTextMargin" format="integer"/>
+        <attr name="radarValueSize" format="dimension"/>
+        <attr name="radarDescSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

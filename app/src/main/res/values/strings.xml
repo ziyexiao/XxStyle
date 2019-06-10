@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Xx Style</string>
+    <string name="home">首页</string>
+    <string name="learning">Learning</string>
+    <string name="delete">删除</string>
+    <string name="exit">退出</string>
+    <string name="loving_word">往后余生\n风雪是你，平淡是你，清贫也是你\n荣华是你，心底温柔是你，目光所致也是你</string>
+    <string name="photo_list">图集</string>
+    <string name="change">更改</string>
+    <string name="_75">75</string>
+    <string name="please_imput_weight">请输入体重</string>
+    <string name="currentprogress">currentProgress(当前进度)：</string>
+    <string name="maxprogress">maxProgress(最大进度)：</string>
+    <string name="animationduration">animationDuration(动画时长)：(s)</string>
+    <string name="progressargbcolor">progressArgbColor(是否有渐变效果)：</string>
+    <string name="circlethickness">circleThickness(RoundProgressBar宽度)：(dp)</string>
+</resources>

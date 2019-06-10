@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_num"
+        android:textColor="@color/red"
+        android:textSize="@dimen/sp_18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:layout_above="@id/rvp_weiget"
+        android:layout_height="wrap_content" />
+
+    <com.xx.style.weiget.view.rullerview.RulerValuePicker
+        android:id="@+id/rvp_weiget"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_gradient"
+        android:layout_centerInParent="true"
+        app:indicator_color="@color/white"
+        app:max_value="193"
+        app:min_value="147"
+        app:ruler_text_size="5sp"
+        app:indicator_interval="@dimen/dp_10"
+        app:notch_color="@color/white"
+        app:indicator_width="@dimen/dp_2"
+        android:layout_height="80dp">
+
+    </com.xx.style.weiget.view.rullerview.RulerValuePicker>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="240dp"
+    android:background="@drawable/pop_music_shape"
+    android:layout_height="50dp">
+
+    <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+        android:id="@+id/rl_last_one"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_last_one"
+        android:layout_height="30dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_stop"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_stop"
+            android:id="@+id/iv_start"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_next_one"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_next_one"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_05" >0.5dp</dimen>
+    <dimen name="statusbar_view_height">0dp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_0.5">0.5dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+
+</resources>

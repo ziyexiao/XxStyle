@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ed4a13</color>-->
+    <color name="colorPrimary">#35687B</color>
+    <color name="colorPrimaryDark">#35687B</color>
+    <color name="colorAccent">#35687B</color>
+    <color name="mainColor">#35687B</color>
+    <color name="transBlack">#99000000</color>
+    <color name="clickMainColor">#FF83AAB9</color>
+
+    <!--normalColor-->
+    <color name="white">#FFFFFF</color>
+    <color name="transWhite">#D8FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="six_black">#66000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="gray_line">#ffededed</color>
+    <color name="six_nine">#999999</color>
+    <color name="six_six">#666666</color>
+    <color name="six_three">#333333</color>
+
+
+
+    <color name="greenProgress">#10e41b</color>
+    <color name="red">#ff0000</color>
+    <color name="lovingTranWhite">#4cFFFFFF</color>
+    <color name="transMainColor">#0035687B</color>
+    <color name="transNineMainColor">#E535687B</color>
+    <color name="transZeroBlack">#00000000</color>
+    <color name="transZeroWhite">#00ffffff</color>
+    <color name="progress_gray">#ffe4e4e4</color>
+
+    <color name="progress_start">#f1e134</color>
+    <color name="progress_end">#f14a34</color>
+    <color name="bgAct2">#BF000000</color>
+    <color name="radarBg">#f3233241</color>
+    <color name="radarValueColor">#992067a4</color>
+    <color name="radarViewBg">#ff233241</color>
+
+
+</resources>

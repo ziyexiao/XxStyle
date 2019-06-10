@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "title": "AndroidSwipeLayout",
+      "url": "https://github.com/daimajia/AndroidSwipeLayout",
+      "desc":"一个强大的侧拉布局"
+    },
+    {
+      "title": "FlycoTabLayout",
+      "url": "https://github.com/H07000223/FlycoTabLayout",
+      "desc":"一个Android TabLayout库,目前有3个TabLayout"
+    },
+    {
+      "title": "JiaoZiVideoPlayer",
+      "url": "https://github.com/lipangit/JiaoZiVideoPlayer",
+      "desc":"jiaozi播放器"
+    },
+    {
+      "title": "SmartRefreshLayout",
+      "url": "https://github.com/scwang90/SmartRefreshLayout",
+      "desc":"强大的刷新框架"
+    },
+    {
+      "title": "BaseRecyclerViewAdapterHelper",
+      "url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper",
+      "desc":"BRVAH是一个强大的RecyclerAdapter框架"
+    },
+    {
+      "title": "SwipeBackLayout",
+      "url": "https://github.com/ikew0ng/SwipeBackLayout",
+      "desc":"仿微信右滑销毁"
+    },
+    {
+      "title": "DiscreteScrollView",
+      "url": "https://github.com/yarolegovich/DiscreteScrollView",
+      "desc":"是基于RecyclerView 实现的一个横向滑动列表"
+    },
+    {
+      "title": "BoomMenu",
+      "url": "https://github.com/pinguo-zhouwei/BoomMenu",
+      "desc":"酷炫的弹出效果"
+    },
+    {
+      "title": "LayoutManagerGroup",
+      "url": "https://github.com/DingMouRen/LayoutManagerGroup",
+      "desc":"自定义RecyclerView 的LayoutManager实现几种炫酷的效果"
+    },
+    {
+      "title": "Matisse",
+      "url": "https://github.com/zhihu/Matisse",
+      "desc":"Matisse是知乎开源的一个本地选择照片和视频的库"
+    },
+    {
+      "title": "CosmoCalendar",
+      "url": "https://github.com/ApplikeySolutions/CosmoCalendar",
+      "desc":" 一个高度自定义的日历库，UI精美，支持多种模式"
+    },
+    {
+      "title": "CalendarExaple",
+      "url": "https://github.com/codbking/CalendarExaple",
+      "desc":"高仿钉钉和小米的日历控件，支持快速滑动，界面缓存"
+    },
+    {
+      "title": "CardStackView",
+      "url": "https://github.com/loopeer/CardStackView",
+      "desc":"炫酷的列表卡片滑动动画"
+    },
+    {
+      "title": "MZBannerView",
+      "url": "https://github.com/pinguo-zhouwei/MZBannerView",
+      "desc":"仿魅族BannerView,图片轮播控件,支持多种模式切换"
+    },
+    {
+      "title":"AwesomeDrawer",
+      "url":"https://github.com/Android1404/AwesomeDrawer",
+      "desc":"窗帘拉开折叠效果"
+    },
+    {
+      "title":"ARC-SeekBar",
+      "url":"https://github.com/GcsSloop/arc-seekbar",
+      "desc":"Android圆弧拖动条"
+    },
+    {
+      "title":"ViewPagerIndicator",
+      "url":"https://github.com/LinweiJ/ViewPagerIndicator",
+      "desc":"ViewPager指示器"
+    },
+    {
+      "title":"BubbleSeekBar",
+      "url":"https://github.com/woxingxiao/BubbleSeekBar",
+      "desc":"自定义SeekBar，进度变化更以可视化气泡样式呈现"
+    },
+    {
+      "title":"ColorPickerView",
+      "url":"https://github.com/skydoves/ColorPickerView",
+      "desc":"自定义颜色选择器"
+    },
+    {
+      "title":"AndResGuard",
+      "url":"https://github.com/shwenzhang/AndResGuard",
+      "desc":"微信开源资源文件混淆工具"
+    }
+  ]
+}

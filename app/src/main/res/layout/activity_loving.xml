@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xx.style.weiget.view.PullZoomView
+        android:id="@+id/pzv_loving"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_header"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:tag="header">
+
+                <FrameLayout
+                    android:tag="zoom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_loving_zoom_bg" />
+
+                <com.xx.style.weiget.view.ColorChangeTextView
+                    android:id="@+id/cctv_zoom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/dp_5"
+                    android:background="@color/lovingTranWhite"
+                    android:gravity="center"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/loving_word"
+                    android:textColor="@color/red" />
+
+                <ImageView
+                    android:id="@+id/iv_music"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_above="@+id/cctv_zoom"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginStart="14dp"
+                    android:src="@mipmap/ic_music" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/iv_loving_bg"
+                    android:scaleType="centerCrop"
+                    />
+
+            </RelativeLayout>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="content">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_loving"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </com.xx.style.weiget.view.PullZoomView>
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transMainColor">
+
+        <View
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/statusbar_view_height"
+            android:background="@color/transparent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/top_view"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/transZeroBlack"
+            android:textSize="@dimen/sp_15" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
