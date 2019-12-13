@@ -50,14 +50,14 @@
         android:id="@+id/rv_leaning"
         android:layout_height="match_parent"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        app:fabSize="normal"
-        android:src="@mipmap/ic_msg"
-        app:layout_anchor="@id/rv_leaning"
-        app:layout_anchorGravity="end"  />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:fabSize="normal"
+            android:src="@mipmap/ic_msg"
+            app:layout_anchor="@id/rv_leaning"
+            app:layout_anchorGravity="end"  />
 
 </android.support.design.widget.CoordinatorLayout>
