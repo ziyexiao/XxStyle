@@ -42,6 +42,10 @@
 		{
 			"title":"Android 属性动画(Property Animation) 使用详解",
 			"url":"https://www.jianshu.com/p/a480ca619dd9"
+		},
+		{
+			"title":"EventBus源码分析",
+			"url":"https://juejin.im/post/6844904082747080717"
 		}
 	]
 }
